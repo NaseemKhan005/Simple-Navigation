@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+	--textcolor: #fff;
+	--bgcolor: green;
+}
+nav {
+	background-color: var(--bgcolor);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav a,
+h1,
+i {
+	color: var(--textcolor);
+	text-decoration: none;
+	padding: 15px 0;
+}
+.logo h1{
+	font-size: 30px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	word-spacing: 8px;
+}
+#social-links a i {
+	font-size: 23px;
+	padding-right: 8px;
+}
+.links a{
+	font-size: 18px;
+	padding-left: 15px;
+}
+nav a {
+	padding-right: 20px;
+}
